@@ -1,0 +1,15 @@
+.star_icon{
+    color: rgb(231, 136, 12);
+}
+.contact_icon{
+    color: #2edf0b;
+}
+.location_icon, .email_icon{
+    color: White;
+}
+.date_icon{
+    color: #512b1f;
+}
+.human_icon{
+    color: #51411f;
+}

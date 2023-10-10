@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tour Travel</title>
+        <link rel="stylesheet" href="./bootstrap-5.2/css/bootstrap.min.css">
+        <script src="./bootstrap-5.2/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="./styles/css/main.css">
+        <link rel="stylesheet"
+            href="./fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-secondary  ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand col-5 " href="#">
+                        <h2 class="text-white text-center ">
+                            <i>Hello Tour Travel</i>
+                        </h2>
+                    </a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-link navbar-collapse"
+                        id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-center align-items-center ">
+                            <a
+                                class="nav-link mx-lg-3 mx-xxl-5 active fw-bold text-white m-2"
+                                aria-current="page"
+                                href="index.html">HOME</a>
+                            <a
+                                class="nav-link mx-lg-3 mx-xxl-5 fw-bold text-white m-2"
+                                aria-current="page"
+                                href="tour.html">TOUR</a>
+                            <a
+                                class="nav-link mx-lg-3 mx-xxl-5 fw-bold text-white m-2"
+                                aria-current="page"
+                                href="blogs.html">BLOGS</a>
+                            <a
+                                class="nav-link mx-lg-3  mx-xxl-5 fw-bold text-white m-2"
+                                aria-current="page" href="about-us.html">ABOUT
+                                US</a>
+                            <a
+                                class="btn px-4 mx-4 mx-xxl-5 btn-danger fw-bold text-white m-2 "
+                                href="booking.html" role="button">BOOK
+                                NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Banner -->
+            <div class="container-fluid m-0 p-0 ">
+                <div id="carouselExampleIndicators" class="carousel slide "
+                    data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img src="./banner/index_banner003.jfif"
+                                class="d-block  w-100 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./banner/index_banner001.jfif"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./banner/index_banner002.jpg"
+                                class="d-block  w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Form Check -->
+            <form action="#" , method="post">
+                <div class="container-fluid bg-light py-4 ">
+                    <div class="row  justify-content-evenly px-3">
+                        <div class="col-6 mb-3 col-sm-5 col-xl-3 col-xxl-2 ">
+                            <h4>Destinations</h4>
+                            <select class="form-select "
+                                aria-label="Default select example">
+                                <option selected>All Destinations</option>
+                                <option value="1">Hightland</option>
+                                <option value="2">Sea Island</option>
+                                <option value="3">North Central</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mb-3 col-sm-5 col-xl-4 col-xxl-2 ">
+                            <h4>Adults</h4>
+                            <select class="form-select "
+                                aria-label="Default select example">
+                                <option selected>Adults</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">Over 10</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mb-3 col-sm-5 col-xl-4 col-xxl-2 ">
+                            <h4>Chilrd</h4>
+                            <select class="form-select "
+                                aria-label="Default select example">
+                                <option selected>Chilrd</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">Over 10</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mb-3 col-sm-5 col-xl-3 col-xxl-2 ">
+                            <h4>Time</h4>
+                            <select class="form-select "
+                                aria-label="Default select example">
+                                <option selected>Time</option>
+                                <option value="1">1 Day</option>
+                                <option value="2">2 Day</option>
+                                <option value="3">3 Day</option>
+                                <option value="5">Over 5 Day</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mb-3 col-sm-5 col-xl-4 col-xxl-2 ">
+                            <h4>Cost</h4>
+                            <select class="form-select "
+                                aria-label="Default select example">
+                                <option selected>Cost</option>
+                                <option value="100">$100</option>
+                                <option value="200">$200</option>
+                                <option value="300">$300</option>
+                                <option value="500">Over $500</option>
+
+                            </select>
+                        </div>
+                        <div class="col-6 mb-3 col-sm-5 col-xl-4 col-xxl-2 ">
+                            <h4>Stranport</h4>
+                            <select class="form-select "
+                                aria-label="Default select example">
+                                <option selected>Stranport</option>
+                                <option value="Car">Luxury Car</option>
+                                <option value="Rail">Rail</option>
+                                <option value="Sea Route">Sea Route</option>
+                                <option value="Airline">Airline</option>
+
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <a href="booking.html">
+                                <button class="btn w-100 p-2 mt-3 btn-primary"
+                                    type="button" value="CHECK TOUR">CHECK TOUR</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </header>
+        <!-- Header End -->
+
+        <!-- Main -->
+        <main>
+            <div class="container-fluid ">
+                <!-- Content 1 -->
+                <div class="card col-12  ">
+                    <div class="row ">
+                        <div class="col-12  p-4">
+                            <div class="col-12">
+                                <i class="text-danger fa-2x">Welcome Tour
+                                    Travels</i><br>
+                                <h2>Travel's The World One Place At A Time</h2>
+                                <p>We would love to help you realize your travel
+                                    dreams, ,to start a new. Take the first
+                                    steps
+                                    towards making your dream a reality.The 3
+                                    core elements that are placed first in the
+                                    journey to accomplish the company's mission
+                                    are: Professionalism, sublime emotions of
+                                    customers and added values for tourists
+                                    after each trip.</p>
+                            </div>
+                            <hr>
+                            <div class="row justify-content-between">
+                                <div class="col-12 col-sm-4">
+                                    <h3>Best Tour Agents</h3>
+                                    <p>After more than 20 years of establishment
+                                        and development, Vietravel is
+                                        increasingly proving its position by
+                                        aiming to become one of the top 10
+                                        travel groups in Asia.At the same time,
+                                        it is a reputable name that customers
+                                        can rest assured to choose.</p>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <h3>Travel Guidelines</h3>
+                                    <p>Vietravel affirms that customers are the
+                                        key factor that greatly contributes to
+                                        building the Vietravel brand as it is
+                                        today.In addition, to affirm the brand's
+                                        position, the company uses
+                                        professionalism through each business
+                                        strategy as a measure.</p>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <h3>Program Savety</h3>
+                                    <p>As a leading travel company with the
+                                        largest product distribution network in
+                                        the domestic market, part of this
+                                        success comes from a team of
+                                        enthusiastic staff who are highly
+                                        trained in operations and
+                                        techniques.Prepare to be flexible
+                                        during your trip
+                                        as
+                                        restrictions and policies.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Content 2 -->
+
+                <div class="text-center py-4">
+                    <i class="fa-2x text-danger">Modern & Beautiful</i>
+                    <h2>Our Most Popular Adventures</h2>
+                </div>
+
+                <div class="container px-5 g-1 ">
+                    <div class="row justify-content-around ">
+                        <div
+                            class="col-12 col-xl-4 col-md-5 col-xxl-3 py-3 ">
+                            <div
+                                class="card border-1 h-100 ">
+                                <img src="./card_tour/card_tour04.jpg"
+                                    class="card-img-top h-50" alt="...">
+                                <div class="card-body h-50">
+                                    <a a href="booking.html"
+                                        class="nav-link text-success h-50">
+                                        <h5 class="card-title ">Travel Quang
+                                            Ninh - Ha Long - Ha Noi 3N2Đ.</h5></a>
+                                    <hr>
+                                    <div class="row justify-content-around ">
+                                        <p
+                                            class="fw-bold col-5 text-danger text-center">$112
+                                            <i
+                                                class="text-decoration-line-through text-secondary">
+                                                $157</i> </p>
+                                        <a href="booking.html"
+                                            class="btn col-7 col-sm-5 btn-primary ">BOOK
+                                            NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-12 col-xl-4 col-md-5 col-xxl-3 py-3 ">
+                            <div
+                                class="card border-1 h-100">
+                                <img src="./card_tour/card_tour02.jpg"
+                                    class="card-img-top h-50" alt="...">
+                                <div class="card-body h-50">
+                                    <a a href="booking.html"
+                                        class="nav-link text-success h-50">
+                                        <h5 class="card-title ">Travel Quang
+                                            Ninh - Ha Long - Ha Noi 3N2Đ.</h5></a>
+                                    <hr>
+                                    <div class="row justify-content-around ">
+                                        <p
+                                            class="fw-bold col-5 text-danger text-center">$112
+                                            <i
+                                                class="text-decoration-line-through text-secondary">
+                                                $157</i> </p>
+                                        <a href="booking.html"
+                                            class="btn col-7 col-sm-5 btn-primary">BOOK
+                                            NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-xl-4 col-md-5 col-xxl-3 py-3 ">
+                            <div
+                                class="card border-1 h-100">
+                                <img src="./card_tour/card_tour03.jpg"
+                                    class="card-img-top h-50" alt="...">
+                                <div class="card-body ">
+                                    <a a href="booking.html"
+                                        class="nav-link text-success h-50">
+                                        <h5 class="card-title ">Travel Ha
+                                            Giang - Dong Van - Bac
+                                            Kan 5N4Đ.</h5></a>
+                                    <hr>
+                                    <div class="row justify-content-around ">
+                                        <p
+                                            class="fw-bold col-5 text-danger text-center">$175
+                                            <i
+                                                class="text-decoration-line-through text-secondary">
+                                                $270</i> </p>
+                                        <a href="booking.html"
+                                            class="btn col-7 col-sm-5 btn-primary">BOOK
+                                            NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-xl-4 col-md-5 col-xxl-3 py-3 ">
+                            <div
+                                class="card border-1 h-100">
+                                <img src="./card_tour/card_tour10.jpg"
+                                    class="card-img-top h-50" alt="...">
+                                <div class="card-body ">
+                                    <a a href="booking.html"
+                                        class="nav-link text-success h-50">
+                                        <h5 class="card-title ">Travel
+                                            Moc
+                                            Chau 2N1Đ.
+                                        </h5></a>
+                                    <hr>
+
+                                    <div class="row justify-content-around ">
+                                        <p
+                                            class="fw-bold col-5 text-danger text-center">$103
+                                            <i
+                                                class=" text-decoration-line-through text-secondary">
+                                                $150</i> </p>
+                                        <a href="booking.html"
+                                            class="btn col-7 col-sm-5 btn-primary">BOOK
+                                            NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><hr>
+
+                </div>
+                <div class="row ">
+                    <div class="d-none d-sm-block col-sm-1 col-md-2"></div>
+                    <div class="col-12 col-sm-10 col-md-8 px-5 ">
+                        <video controls
+                            src="./banner/video_hellovietnam.mp4"
+                            class="w-100"></video>
+                    </div>
+                    <div class="d-none d-sm-block col-sm-1 col-md-2"></div>
+                </div>
+
+                <!-- Content 3 -->
+                <div class="container px-5 py-3 ">
+                    <div class=" row p-0 m-0  ">
+                        <div class="col-12 ">
+                            <i class="text-danger fa-2x">Testimonials</i>
+                            <h2>What Our Tourist Say!</h2>
+                            <p>We are proud to say that after 17
+                                experience-packed
+                                years, we are the world leader and obsessed
+                                with finding the best things.Like this aprove
+                                love you all.
+                            </p>
+
+                            <div class=" row">
+                                <div class="col-sm-12 col-md-6 col-xl-4 my-2  ">
+                                    <div class="card shadow">
+                                        <div class="row p-3 ">
+                                            <div class="col-5  ">
+                                                <img
+                                                    src="./human/human01.jpg"
+                                                    class="img-fluid rounded-start "
+                                                    alt="...">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <h5
+                                                        class="card-title text-primary">Jame
+                                                        Camaron</h5>
+                                                    <p class="m-0">Traveler</p>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-body ">
+                                                <p class="card-text">Thanks you
+                                                    somuch for the
+                                                    amaing trips and for the
+                                                    interesting fuides
+                                                    ? It was exactle ac we
+                                                    imagined
+                                                    it.somuch for the
+                                                    amaing trips and for the
+                                                    interesting fuides
+                                                    ?</p>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-4 my-2 ">
+                                    <div class="card shadow">
+                                        <div class="row p-3 ">
+                                            <div class="col-5">
+                                                <img
+                                                    src="./human/human02.jpg"
+                                                    class="img-fluid rounded-start "
+                                                    alt="...">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <h5
+                                                        class="card-title text-primary">Agelina
+                                                        Pea</h5>
+                                                    <p class="m-0">Traveler</p>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-body ">
+                                                <p class="card-text">Thanks you
+                                                    somuch for the
+                                                    amaing trips and for the
+                                                    interesting fuides
+                                                    ? It was exactle ac we
+                                                    imagined
+                                                    it.somuch for the
+                                                    amaing trips and for the
+                                                    interesting fuides
+                                                    ?</p>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-4 my-2 ">
+                                    <div class="card shadow">
+                                        <div class="row p-3 ">
+                                            <div class="col-5 ">
+                                                <img
+                                                    src="./human/human03.jpg"
+                                                    class="img-fluid rounded-start "
+                                                    alt="...">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <h5
+                                                        class="card-title text-primary">Andrea
+                                                        Popy</h5>
+                                                    <p class="m-0">Traveler</p>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-body ">
+                                                <p class="card-text">Thanks you
+                                                    somuch for the
+                                                    amaing trips and for the
+                                                    interesting fuides
+                                                    ? It was exactle ac we
+                                                    imagined
+                                                    it.somuch for the
+                                                    amaing trips and for the
+                                                    interesting fuides
+                                                    ?.</p>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-4 my-2 ">
+                                    <div class="card shadow">
+                                        <div class="row p-3">
+                                            <div class="col-5 ">
+                                                <img
+                                                    src="./human/human04.jpg"
+                                                    class="img-fluid rounded-start "
+                                                    alt="...">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <h5
+                                                        class="card-title text-primary">Mat
+                                                        Lemons
+                                                    </h5>
+                                                    <p class="m-0">Traveler</p>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-body ">
+                                                <p class="card-text">Thanks you
+                                                    somuch for the
+                                                    amaing trips and for the
+                                                    interesting fuides
+                                                    ? It was exactle ac we
+                                                    imagined
+                                                    it.somuch for the
+                                                    amaing trips and for the
+                                                    interesting fuides
+                                                    ? .</p>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                                <i
+                                                    class="fas fa-star star_icon "></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End content 3 -->
+                </div>
+            </main>
+
+            <!-- Footer -->
+
+            <footer>
+                <img src="./banner/index_footer.png" class="w-100 " alt>
+                <div class="container-fluid  ">
+                    <div class="row ">
+                        <div
+                            class="col-6 col-sm-6 col-md-3 text-center py-3 bg-secondary text-white ">
+                            <h4 class>Hello Viet Nam</h4>
+                            <p>Welcome to the best travel ageny where you can
+                                find
+                                tons of tour to any place on Earth.</p>
+
+                            <i class=" py-5  "> Direct Interact
+                                Here</i><br>
+                            <i class="fas fa-phone-alt m-2 location_icon">
+                                &ensp; 02113 845 777</i>
+                            <i class="fas fa-sms m-0 location_icon">&ensp;
+                                0878 577 999</i>
+                        </div>
+
+                        <div
+                            class="col-6 col-sm-6 col-md-3 text-center py-3 bg-secondary text-white">
+                            <h4 class>Useful Links</h4>
+                            <ul class="list-unstyled">
+                                <li class>
+                                    <a class="nav-link py-1" href="index.html">Home</a>
+                                </li>
+                                <li class>
+                                    <a class="nav-link py-1" href="tour.html">Tour</a>
+                                </li>
+                                <li class>
+                                    <a class="nav-link py-1" href="blogs.html">Blogs</a>
+                                </li>
+                                <li class>
+                                    <a class="nav-link py-1"
+                                        href="about-us.html">About Us</a>
+                                </li>
+                                <li class>
+                                    <a class="nav-link py-1" href="booking.html">Book
+                                        Now</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div
+                            class="col-6 col-sm-6 col-md-3 text-center py-3 bg-secondary text-white ">
+                            <h4 class>Get In Touch</h4>
+                            <h5>
+                                <i class="fas fa-map-marker location_icon"></i>&ensp;
+                                Location
+                            </h5>
+                            <p>No. 177 Mai Dich, Cau Giay, Ha Noi.</p>
+                            <h5>
+                                <i class="fas fa-envelope email_icon"></i>&ensp;
+                                Email
+                            </h5>
+                            <p>hellotravel@web.vn</p>
+                        </div>
+
+                        <div
+                            class="col-6 col-sm-6 col-md-3 text-center py-3 bg-secondary text-white">
+                            <h4 class>Stay Connected</h4>
+                            <p class="m-0">Follow Us on Social</p>
+                            <p class="m-0">Media Channels</p>
+                            <br>
+                            <a href class="px-2">
+                                <i
+                                    class="fab fa-facebook-square fa-lg contact_icon"></i>
+                            </a>
+                            <a href class="px-2">
+                                <i
+                                    class="fab fa-twitter-square fa-lg contact_icon"></i>
+                            </a>
+                            <a href class="px-2">
+                                <i
+                                    class="fab fa-telegram fa-lg contact_icon"></i>
+                            </a>
+                            <a href class="px-2">
+                                <i
+                                    class="fab fa-discord fa-lg contact_icon"></i>
+                            </a>
+                            <a href class="px-2">
+                                <i
+                                    class="fab fa-youtube-square contact_icon fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </body>
+    </html>
